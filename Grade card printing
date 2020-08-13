@@ -1,1 +1,23 @@
+#include<stdio.h>
+main()
+{
+	printf("1.marks>=85 \n2.marks>=70 && marks<=84 \n3.marks>=55 && marks<=69 \n4.marks>=40 && marks<=54 \n5.marks<40 \n");
+	int num=6;
+	switch(num)
+	{
+		case 1:
+			printf("Grade A");
+		case 2:
+		    printf("Grade B");
+		case 3:
+		    printf("Grade C");
+		case 4:
+			printf("Grade D");
+		case 5:
+			printf("Fail");
+		default:
+			printf(" Invalid Number ");
+	}
 
+	
+}
